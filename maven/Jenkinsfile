@@ -3,7 +3,7 @@
 {
     stage('count dwnld')
 {
-    git 'https://github.com/dileepchiru/jj.git'
+    git 'https://github.com/dileepchiru/dddd.git'
 }
 stage('count build')
 {

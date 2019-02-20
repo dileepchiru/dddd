@@ -1,7 +1,7 @@
 
  node('master')
 {
-    stage('count downlhd')
+    stage('count downlhadd')
 {
     git 'https://github.com/dileepchiru/dddd.git'
 }

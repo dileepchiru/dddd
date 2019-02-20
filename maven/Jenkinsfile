@@ -9,7 +9,7 @@ stage('count build')
 {
  sh label: '', script: 'mvn package'   
 }
-stage('count depoly')
+stage('counting depoly')
 {
     sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/scriptedpipeline/webapp/target/webapp.war ubuntu@172.31.16.96:/var/lib/tomcat7/webapps/qa.war'
 }
